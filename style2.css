@@ -1,0 +1,78 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("https://imgcdn.stablediffusionweb.com/2024/4/16/253c3c27-3ba5-4b0c-99e4-1f155d520a21.jpg");
+    opacity: 1px;
+}
+h1{
+    color:ghostwhite;
+    border: 2px black dashed;
+}
+p{
+    font-size: 30px;
+    color: azure;  
+}
+#enter{
+    font-size: 20px;
+    color: seashell;   
+}
+
+
+
+.text1{
+    font-size:20px;
+    color: #fff;
+   
+    
+}
+
+
+
+input[type="text"] {
+    width: 30%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    color:grey;
+    border-radius: 15px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 5%;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    color: rosybrown;
+}
+
+#hint {
+    font-size: 18px;
+    color: rosybrown;
+}
+
+#score {
+    font-size: 24px;
+    font-weight: bold;
+    color:blue;
+}
+
+
