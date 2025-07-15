@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Number Guessing Game</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Number Guessing Game</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <main class="game-container">
-        <h1>Number Guessing Game</h1>
-        <p id="instructions">Guess a number between <strong>1</strong> and <strong>100</strong></p>
-        <br>
+  <!-- Page 1: Setup -->
+  <div id="page1" class="page">
+    <div class="container">
+      <h1>Number Guess Game</h1>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Your name" />
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="you@example.com" />
+      <label class="checkbox-label">
+        <input type="checkbox" id="agree" /> I agree to the terms & conditions
+      </label>
+      <button id="startBtn">Start Game</button>
+    </div>
+  </div>
 
-        <div class="input-section">
-            <label  id="enter">Enter your guess:</label>
-            <input type="text" id="guess" placeholder="Enter your guess" min="1" max="100">
-        </div>
-        <br>
+  <!-- Page 2: Gameplay -->
+  <div id="page2" class="page">
+    <div class="container">
+      <h1>Guess the Number</h1>
+      <p>Guess a number between <strong>1</strong> and <strong>100</strong>.</p>
+      <label for="guess">Your guess:</label>
+      <input type="text" id="guess" placeholder="1–100" disabled />
+      <div>
+        <button id="submit" disabled>Submit</button>
+        <button id="reset">Reset</button>
+      </div>
+      <section class="result-section">
+        <p id="result"></p>
+        <p id="hint"></p>
+        <p id="score"></p>
+      </section>
+    </div>
+  </div>
 
-        <div class="button-container">
-            <button id="submit" class="button">Submit</button>
-            <br>
-<br>
-            <button id="reset" class="button">Reset</button>
-            <br>
-        </div>
-
-        <section class="result-section">
-            <p id="result"></p>
-            <br>
-            <p id="hint"></p>
-            <p id="score"></p>
-        </section>
-    </main>
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
