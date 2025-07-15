@@ -1,15 +1,15 @@
 const page1 = document.getElementById("page1"),
-      page2 = document.getElementById("page2"),
-      nameInput = document.getElementById("name"),
-      emailInput = document.getElementById("email"),
-      agree = document.getElementById("agree"),
-      startBtn = document.getElementById("startBtn"),
-      guess = document.getElementById("guess"),
-      submit = document.getElementById("submit"),
-      reset = document.getElementById("reset"),
-      result = document.getElementById("result"),
-      hint = document.getElementById("hint"),
-      scoreEl = document.getElementById("score");
+  page2 = document.getElementById("page2"),
+  nameInput = document.getElementById("name"),
+  emailInput = document.getElementById("email"),
+  agree = document.getElementById("agree"),
+  startBtn = document.getElementById("startBtn"),
+  guess = document.getElementById("guess"),
+  submit = document.getElementById("submit"),
+  reset = document.getElementById("reset"),
+  result = document.getElementById("result"),
+  hint = document.getElementById("hint"),
+  scoreEl = document.getElementById("score");
 
 let target, score;
 
